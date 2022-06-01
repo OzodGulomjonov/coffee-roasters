@@ -1,0 +1,102 @@
+.our-collection__container {
+   margin: 0 auto;
+   max-width: 1111px;
+   background-image: url(../../img/our-collection-2.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   padding-top: 126px;
+}
+
+.our-collection__list {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+}
+
+.our-collection__item {
+   text-align: center;
+}
+
+.our-collection-item-heading {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   text-align: center;
+   color: #333D4B;
+   margin-top: 0;
+   margin-top: 60px;
+}
+
+.our-collection-item-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: #333D4B;
+   max-width: 255px;
+}
+
+@media only screen and (max-width:1190px) {
+
+   
+   .our-collection__list {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .our-collection__item {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+   }
+
+   .our-collection__item-img {
+      margin-right: 36px;
+   }
+
+   .our-collection__container {
+      max-width: 689px;
+   }
+
+   .our-collection-item-heading {
+      margin-top: 0;
+      text-align: start;
+   }
+
+   .our-collection-item-text {
+      margin-top: 0;
+      text-align: start;
+      max-width: 282px;
+   }
+}
+
+@media only screen and (max-width:820px) {
+   
+   .our-collection__item {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .our-collection__item-img {
+      width: 200px;
+      height: 151px;
+      display: block;
+      margin-right: 0;
+   }
+
+   .our-collection-item-text {
+      max-width: 272px;
+      text-align: center;
+   }
+
+   .our-collection-item-heading {
+      text-align: center;
+   }
+}

@@ -1,0 +1,26 @@
+.button {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   color: #FEFCF7;
+   background-color: #0E8784;
+   border-radius: 6px;
+   border: none;
+   padding: 15px 31px;
+   display: block;
+   transition: 0.5s;
+
+   &:hover {
+      transition: 0.5s;
+      background-color: #66D2CF;
+      font-size: 22px;
+      line-height: 28px;
+   }
+
+   &:active {
+      opacity: 0.6;
+   }
+}
