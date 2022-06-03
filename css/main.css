@@ -621,7 +621,7 @@ img {
   background-size: cover;
 }
 
-.greate-plan--fixed {
+.container__greate-plan--fixed {
   width: 100%;
   margin: 0 auto;
   padding: 0;
@@ -631,7 +631,7 @@ img {
 .greate-plan__text-wrapper {
   padding-top: 117px;
   padding-bottom: 117px;
-  margin-left: 86px;
+  margin-left: 110px;
 }
 
 .greate-plan__heading {
@@ -1318,6 +1318,184 @@ img {
   }
   .site-footer__icon-list {
     margin-top: 60px;
+  }
+}
+
+.about-us__container {
+  background-image: url(../../img/about-bcg-img-1.jpg);
+  background-repeat: no-repeat;
+}
+
+.about-us__text-wrapper {
+  margin-left: 85px;
+  padding-top: 137px;
+  padding-bottom: 137px;
+}
+
+.about-us__heading {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin: 0;
+}
+
+.about-us__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  max-width: 445px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-us__text {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 270px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .about-us__text-wrapper {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .about-us__heading {
+    margin-bottom: 24px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .about-us__container {
+    background-image: url(../../img/about-bcg-img-1-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-us__text {
+    max-width: 250px;
+  }
+}
+
+.our-commitment {
+  margin-top: 167px;
+}
+
+.our-commitment__container {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  max-width: 1110px;
+  margin: 0 auto;
+  background-image: url(../../img/about-bcg-img-2.jpg);
+  background-repeat: no-repeat;
+}
+
+.our-commitment__text-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.our-commitment__heading {
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  width: 100%;
+  text-align: left;
+}
+
+.our-commitment__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 540px;
+}
+
+@media only screen and (max-width: 1160px) {
+  .our-commitment__text {
+    line-height: 25px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .our-commitment__container {
+    background-image: url(../../img/about-bcg-img-2-tablet.jpg);
+  }
+  .our-commitment__container {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .our-commitment--fixed {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1110px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .our-commitment--fixed {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .our-commitment__text-wrapper {
+    margin: 0;
+    max-width: 550px;
+  }
+  .our-commitment__container {
+    padding-top: 455px;
+    background-image: url(../../img/about-bcg-img-2-mobile.jpg);
+    background-position: center top;
+  }
+  .our-commitment__heading {
+    text-align: center;
+  }
+  .our-commitment__text {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .our-commitment__text-wrapper {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .our-commitment__text {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 250px;
+  }
+  .our-commitment__heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .our-commitment__text-wrapper {
+    max-width: 270px;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=main.css.map */

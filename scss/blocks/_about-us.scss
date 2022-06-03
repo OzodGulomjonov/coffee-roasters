@@ -1,0 +1,67 @@
+.about-us {
+   
+}
+
+.about-us__container {
+   background-image: url(../../img/about-bcg-img-1.jpg);
+   background-repeat: no-repeat;
+}
+
+.about-us__text-wrapper {
+   margin-left: 85px;
+   padding-top: 137px;
+   padding-bottom: 137px;
+}
+
+.about-us__heading {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+   margin: 0;
+}
+
+.about-us__text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   max-width: 445px;
+}
+
+@media only screen and (max-width:600px) {
+   
+   .about-us__text {
+      font-size: 15px;
+      line-height: 25px;
+      max-width: 270px;
+      text-align: center;
+      margin: 0 auto;
+   }
+
+   .about-us__text-wrapper {
+      text-align: center;
+      margin: 0 auto;
+   }
+   
+   .about-us__heading {
+      margin-bottom: 24px;
+      font-size: 28px;
+      line-height: 28px;
+   }
+}
+
+@media only screen and (max-width:550px) {
+
+   .about-us__container {
+      background-image: url(../../img/about-bcg-img-1-mobile.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   .about-us__text {
+      max-width: 250px;
+   }
+}
