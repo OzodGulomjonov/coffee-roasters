@@ -1,0 +1,129 @@
+.our-headquarters {
+   margin-top: 168px;
+}
+
+.our-headquarters__container {
+   max-width: 1110px;
+   margin: 0 auto;
+}
+
+.our-headquarters__heading {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #83888F;
+   margin: 0;
+}
+
+.our-headquarters__list {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: flex-start;
+   margin-top: 167px;
+}
+
+.our-headquarters__item {
+   
+   &:nth-child(2) {
+      margin-left: 105px;
+   }
+
+   &:nth-child(3) {
+      margin-left: 170px;
+   }
+
+   &:first-child::before {
+      content:'';
+      background-image: url(../../img/countries-1.png);
+      background-repeat: no-repeat;
+      padding: 45px;
+   }
+
+   &:nth-child(2):before {
+      content:'';
+      background-image: url(../../img/countries-2.png);
+      background-repeat: no-repeat;
+      padding: 45px;
+   }
+
+   &:last-child:before {
+      content:'';
+      background-image: url(../../img/countries-3.png);
+      background-repeat: no-repeat;
+      padding: 45px;
+   }
+}
+
+.our-headquarters__item-heading {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 36px;
+   color: #333D4B;
+}
+
+.our-headquarters__item-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+   display: flex;
+   flex-direction: column;
+}
+
+@media only screen and (max-width:850px) {
+   
+   .our-headquarters__item {
+
+      &:nth-child(2) {
+         margin-left: 50px;
+      }
+   
+      &:nth-child(3) {
+         margin-left: 120px;
+      }
+   }
+}
+
+@media only screen and (max-width:740px) {
+   
+   .our-headquarters__item {
+
+      &:nth-child(2) {
+         margin-top: 70px;
+         margin-left: 0;
+      }
+   
+      &:nth-child(3) {
+         margin-top: 70px;
+         margin-left: 0;
+      }
+
+      &::before {
+         margin-left: 35px;
+      }
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .our-headquarters__item-heading {
+         text-align: center;
+      }
+
+      .our-headquarters__item-text {
+         text-align: center;
+      }
+   }
+
+   .our-headquarters__list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+}

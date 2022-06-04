@@ -1,0 +1,111 @@
+.uncompromising-quality {
+   margin-top: 240px;
+}
+
+.uncompromising-quality__container {
+   background-color: #2C343E;
+   border-radius: 8px;
+}
+
+.uncompromising-quality__wrapper {
+   max-width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   position: relative;
+   padding-top: 88px;
+   padding-bottom: 176px;
+   // align-items: center;
+}
+
+.uncompromising-quality__img {
+   border-radius: 8px;
+   margin-left: auto;
+   position: absolute;
+   right: 0;
+   top: calc(-80px);
+}
+
+.uncompromising-quality__heading {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+}
+
+.uncompromising-quality__text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+   max-width: 540px;
+}
+
+.uncompromising-quality__img-second {
+   display: none;
+}
+
+@media only screen and (max-width:1190px) {
+   
+   .uncompromising-quality__text-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   
+   .uncompromising-quality__wrapper {
+      padding-bottom: 88px;
+      padding-top: 223px;
+   }
+   
+   .uncompromising-quality__img {
+      display: none;
+   }
+   
+   .uncompromising-quality__img-second {
+      display: block;
+      border-radius: 8px;
+      margin-left: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: calc(-80px);
+   }
+}
+
+@media only screen and (max-width:650px) {
+   
+   .uncompromising-quality__text-wrapper {
+      max-width: 280px;
+      margin: 0 auto;
+   }
+   
+   .uncompromising-quality__text {
+      font-size: 15px;
+      line-height: 25px;
+      max-zoom: 250px;
+      text-align: center;
+   }
+   
+   .uncompromising-quality__heading {
+      font-size: 28px;
+      line-height: 28px;
+      max-width: 250px;
+      text-align: center;
+   }
+
+   .uncompromising-quality__wrapper {
+      padding-bottom: 60px;
+      padding-top: 102px;
+   }
+
+   .uncompromising-quality__img-second {
+      max-width:  260px;
+      height: 156px;
+   }
+}
