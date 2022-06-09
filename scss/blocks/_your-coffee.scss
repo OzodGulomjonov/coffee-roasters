@@ -1,0 +1,289 @@
+.your-coffee {
+    margin-top: 160px;
+}
+
+.your-coffee__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.your-coffee__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.your-coffee__list-item {
+    position: relative;
+    
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    
+    &:not(:last-child)::after {
+        content: '';
+        display: block;
+        width: 255px;
+        height: 1px;
+        top: 56px;
+        background-color: #83888F;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+        position: absolute;
+    }
+}
+
+.your-coffee__item-link {
+    display: flex;
+    align-items: center;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    opacity: 0.5;
+}
+
+.your-coffee__item-span {
+    display: block;
+    margin-right: 30px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.your-coffee__item-span--fixed {
+    color: #0E8784;
+}
+
+.your-coffee__item-link--no-opacity {
+    opacity: 1;
+}
+
+.your-coffee__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    margin: 0;
+}
+
+.your-coffee__capsule-label {
+    
+    &:not(:first-child) {
+        margin-left: 24px;
+    }
+}
+
+.your-coffee__capsule {
+    margin-top: 70px;
+}
+
+.your-coffee__capsula--inner {
+    cursor: pointer;
+    padding: 32px 28px 84px 28px;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    max-width: 230px;
+    height: 250px;
+    transition: 1s;
+    
+    &:hover {
+        background-color: #FDD6BA;
+        transition: 0.5s;
+    }
+}
+
+.your-coffee__capsule-input:checked + .your-coffee__capsula--inner {
+    background-color: #0E8784;
+    
+    .your-coffee__capsule-heading {
+        color: #FFFFFF;
+    }
+    
+    .your-coffee__capsule-text {
+        color: #FEFCF7;
+    }
+}
+
+.your-coffee__capsule-heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin: 0;
+}
+
+.your-coffee__heading--margin {
+    margin-top: 50px;
+}
+
+.your-coffee__heading {
+    max-width: 632px;
+    position: relative;
+    
+    &::before {
+        content: '';
+        display: block;
+        background-image: url(../../img/create-plan-strelka-icon.svg);
+        background-repeat: no-repeat;
+        position: absolute; 
+        width: 18px;
+        height: 19px;
+        top: calc(40%);
+        right: calc(-15%);
+        cursor: pointer;
+    }
+}
+
+.your-coffee__capsule-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    max-width: 172px;
+}
+
+.your-coffee__capsule {
+    display: flex;
+    align-items: center;
+}
+
+.your-coffee__footer {
+    margin-top: 80px;
+    padding: 27px 64px 27px 64px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333D4B;
+    border-radius: 8px;
+}
+
+.button-fixed {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+}
+
+.your-coffee__footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.your-coffee__footer__str {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+    max-width: 602px;
+    margin: 0;
+}
+
+.your-coffee__footer-span {
+    color: #0E8784;
+}
+
+@media only screen and (max-width:1050px) {
+    
+    .your-coffee__style {
+        display: none;
+    }
+    
+    .your-coffee__form-wrapper {
+        margin: 0 auto;
+    } 
+}
+
+@media only screen and (max-width:775px) {
+    
+    .button-fixed {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+    .your-coffee__heading {
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 400px;
+
+        &::before {
+            right: calc(1%);
+        }
+    }
+
+    .your-coffee__form-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .your-coffee__capsule {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .your-coffee__capsule-label {
+
+        width: 100%;
+
+        &:not(:first-child) {
+            margin-top: 20px;
+        }
+
+        &:not(:first-child) {
+            margin-left: 0;
+        }
+    }
+
+    .your-coffee__capsule {
+        margin-top: 0;
+        margin-top: 40px;
+    }
+
+    .your-coffee__capsula--inner {
+        max-width: 330px;
+        width: 100%;
+        padding: 24px 25px 24px 25px;
+        max-height: 170px;
+    }
+
+    .your-coffee__capsule-text {
+        max-width: 280px;
+    }
+
+    .your-coffee__footer {
+        max-width: 300px;
+        padding: 32px 24px 30px 24px;
+    }
+
+    .your-coffee__form-wrapper {
+        max-width: 330px;
+    }
+
+    .your-coffee__footer-text {
+        max-width: 290px;
+    }
+}
+
+
+

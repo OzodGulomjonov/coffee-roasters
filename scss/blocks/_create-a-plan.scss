@@ -1,0 +1,84 @@
+.create-a-plan__container {
+    background-image: url(../../img/greate-plan-bcg-img.jpg);
+    background-repeat: no-repeat;
+    padding-top: 134px;
+    padding-bottom: 134px;
+    border-radius: 10px;
+}
+
+.create-a-plan__text-wrapper {
+    margin-left: 86px;   
+}
+
+.create-a-plan__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin: 0;
+}
+
+.create-a-plan__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    max-width: 445px;
+}
+
+@media only screen and (max-width:815px) {
+    
+    .create-a-plan__text-wrapper {
+        margin-left: 0;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    
+    .create-a-plan__container {
+        background-image: url(../../img/grate-plan-bcg-img-mobile.jpg);
+        padding-top: 127px;
+        padding-bottom: 127px;
+    }
+    
+    .create-a-plan__heading {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    .create-a-plan__text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    
+    .create-a-plan__container {
+        background-image: url(../../img/create-a-plamn-bcg-img-phone.jpg);
+        background-size: cover;
+    }
+    
+    .create-a-plan__text {
+        max-width: 260px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .create-a-plan__text-wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .create-a-plan__heading {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
